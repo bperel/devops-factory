@@ -1,0 +1,42 @@
+{
+  "name": "factory-maker",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@jsonforms/core": "^3.0.0",
+    "@jsonforms/vue": "^3.0.0",
+    "@jsonforms/vue-vanilla": "^3.0.0",
+    "matter-js": "^0.18.0",
+    "poly-decomp": "^0.3.0",
+    "vue": "^3.2.45"
+  },
+  "devDependencies": {
+    "@types/matter-js": "^0.18.2",
+    "@typescript-eslint/eslint-plugin": "^5.51.0",
+    "@typescript-eslint/parser": "^5.51.0",
+    "@vitejs/plugin-vue": "^4.0.0",
+    "@vue/eslint-config-typescript": "^11.0.2",
+    "@vue/cli-plugin-babel": "^4.5.15",
+    "eslint": "^8.33.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-config-standard-with-typescript": "^34.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^15.6.1",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-vue": "^9.9.0",
+    "prettier-eslint": "^15.0.1",
+    "sass": "^1.58.0",
+    "sass-loader": "^13.2.0",
+    "typescript": "^4.9.5",
+    "vite": "^4.1.0",
+    "vue-eslint-parser": "^9.1.0",
+    "vue-tsc": "^1.0.24"
+  }
+}
