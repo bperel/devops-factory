@@ -90,8 +90,8 @@ export default defineComponent({
     onChange(event: JsonFormsChangeEvent) {
       this.data = event.data;
     },
-    onTextChange(event) {
-      this.data = JSON.parse(event.target.value);
+    onTextChange(event: Event) {
+      this.data = JSON.parse((event.target as HTMLTextAreaElement)?.value);
     },
   },
   computed: {

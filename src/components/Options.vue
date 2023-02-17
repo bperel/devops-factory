@@ -39,7 +39,8 @@ watch(
 watch(
   () => playbackSpeed.value,
   (newValue) => {
-    emit("change-playback-speed", parseInt(newValue));
+    console.log(newValue);
+    emit("change-playback-speed", newValue);
   }
 );
 </script>
