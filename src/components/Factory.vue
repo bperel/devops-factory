@@ -103,7 +103,7 @@ const addBox = (boxSide) => {
       label: "request",
       fillStyle: "red",
       sprite: {
-        texture: "/box.png",
+        texture: "box.png",
       },
     },
     friction: friction.value,
@@ -304,7 +304,7 @@ onMounted(() => {
     }
 
     for (const collision of collisions) {
-      collision.bodyA.render.sprite.texture = "/firstvet.png";
+      collision.bodyA.render.sprite.texture = "firstvet.png";
     }
     context.fillStyle = "rgba(255,165,0,0.7)";
     context.fill();
